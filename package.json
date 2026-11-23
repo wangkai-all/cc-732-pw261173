@@ -1,0 +1,12 @@
+{
+  "name": "device-registry-completeness",
+  "version": "0.1.0",
+  "description": "设备底册完整度分析（虚构数据演示，捕获-再捕获估计）",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node tests/run-tests.mjs",
+    "generate-data": "node tools/generate-data.mjs",
+    "serve": "python3 -m http.server 8000"
+  }
+}
